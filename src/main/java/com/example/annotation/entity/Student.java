@@ -1,10 +1,12 @@
 package com.example.annotation.entity;
 
 
+import com.example.annotation.annotation.TableName;
+
 /**
  * 学生表
  * */
-
+@TableName()
 public class Student {
 
     private String name;
