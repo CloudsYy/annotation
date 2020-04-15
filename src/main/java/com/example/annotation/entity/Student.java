@@ -6,26 +6,26 @@ import com.example.annotation.annotation.TableName;
 /**
  * 学生表
  * */
-@TableName()
+@TableName(value = "")
 public class Student {
 
-    private String name;
+    private String userName;
 
     private String hobby;
 
-    private String id;
+    private Long id;
 
     private Integer age;
 
     public String getName() {
-        return name;
+        return userName;
     }
 
     public String getHobby() {
         return hobby;
     }
 
-    public String getId() {
+    public Long getId() {
         return id;
     }
 
@@ -37,15 +37,15 @@ public class Student {
         this.age = age;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String userName) {
+        this.userName = userName;
     }
 
     public void setHobby(String hobby) {
         this.hobby = hobby;
     }
 
-    public void setId(String id) {
+    public void setId(Long id) {
         this.id = id;
     }
 }
