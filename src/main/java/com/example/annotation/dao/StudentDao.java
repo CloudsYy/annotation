@@ -1,5 +1,5 @@
 package com.example.annotation.dao;
 
-public class StudentDao {
+public class StudentDao extends BaseDao{
 
 }
